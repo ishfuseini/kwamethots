@@ -1,0 +1,30 @@
+/* Slide 74 (#1) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-74-b4190a99"] */
+.slide[data-cid=slide-74-b4190a99] .box-74 {
+  color: #202020;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 2px 6px rgba(0, 0, 0, 0.1);
+  display: block;
+  outline: none;
+  margin-bottom: 25px;
+  -webkit-backface-visibility: hidden;
+}
+.slide[data-cid=slide-74-b4190a99] .box-74:hover {
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  opacity: 0.95;
+}
+.slide[data-cid=slide-74-b4190a99] .box-74 .name-74 {
+  padding: 20px 20px 30px 20px;
+  background: #FFFFFF;
+  border-radius: 0 0 6px 0;
+}
+.slide[data-cid=slide-74-b4190a99] .box-74 .thumbnail-74 {
+  font-size: 0;
+  line-height: 0;
+  overflow: hidden;
+}
+.slide[data-cid=slide-74-b4190a99] .box-74 .thumbnail-74 img {
+  border-radius: 6px 6px 0 0;
+  transition: 0.5s;
+}

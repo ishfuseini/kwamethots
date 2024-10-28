@@ -1,0 +1,41 @@
+/* 
+Compile this file to css/custom_PBgGhOVD.css using any SCSS preprocessor. 
+More information here: https://slides.gitbook.io/manual/scss
+*/
+
+@import "mixins.scss"; 
+@import "variables.scss";
+@import "variables-custom.scss";
+
+/* Slide 74 (#1) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-74-b4190a99"] */
+.slide[data-cid="slide-74-b4190a99"]{
+  .box-74 {
+    color: $default-text-color;
+    border-radius: $rounded-border-radius;
+    overflow: hidden;
+    box-shadow: $small-shadow;
+    display: block;
+    outline: none;
+    margin-bottom: 25px;
+    -webkit-backface-visibility: hidden;
+    &:hover {
+      box-shadow: $large-shadow;
+      opacity: 0.95;
+    }
+    .name-74 {
+      padding: 20px 20px 30px 20px;
+      background: #FFFFFF;
+      border-radius: 0 0 $rounded-border-radius 0;
+    }
+    .thumbnail-74 {
+      font-size: 0;
+      line-height: 0;
+      overflow: hidden;
+      img {
+        border-radius: $rounded-border-radius $rounded-border-radius 0 0;
+        transition: 0.5s;
+      }
+    }
+  }
+}
